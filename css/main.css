@@ -1,0 +1,32 @@
+nav{
+ background: #333333;
+}
+
+ul{
+   /* list of properties that you want to change*/
+    color: red;
+list-style: none;
+align-items: center;
+}
+
+header {
+/*header*/
+height: 200px;
+/*pixel*/
+background: rgb(101,100,59);
+font-size: 30px;
+}
+
+nav{
+    padding-top: 50px;
+    /*this alters the padding at the top of the html page*/
+
+}
+/* divs used to give a class, clas used to group actions? - this saves time */
+/* cannot duplicate id's, they are unique*/
+
+/* refers to a wildcard-anything can be inserted and wont be wrong? effects everything*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
